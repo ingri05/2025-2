@@ -21,7 +21,13 @@ public class Main {
         controller.addStudent(new Student("Carlos", "Hernández", "104", LocalDate.of(2000, 8, 9), 3.6));
         controller.addStudent(new Student("Valentina", "Morales", "108", LocalDate.of(2002, 4, 30), 4.8));
         controller.addStudent(new Student("Jorge", "Castro", "106", LocalDate.of(2001, 10, 12), 3.9));
-        
+
+        // Ordenamientos
+        //controller.sortByCode();
+        //controller.insertionSort();
+       //controller.sortByName();
+        controller.sortByAverage();
+
         // Imprimir lista ordenada
         controller.printStudents();
 

@@ -5,14 +5,13 @@ import java.util.Date;
 
 public class Student implements Comparable<Student> {
 
-    // Atributos
     private String name;
     private String lastName;
     private String code;
     private LocalDate birthDate;
     private double average;
 
-    // Constructor
+
     public Student(String name, String lastName, String code, LocalDate birthDate, double average) {
         this.name = name;
         this.lastName = lastName;
@@ -21,7 +20,6 @@ public class Student implements Comparable<Student> {
         this.average = average;
     }
 
-    // Métodos getter
     public String getName() {
         return name;
     }
